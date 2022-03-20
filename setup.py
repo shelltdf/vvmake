@@ -16,10 +16,10 @@ setuptools.setup(
     version=version,
     author="will",
     author_email="shell_tdf@126.com",
-    description="This is the SDK for example.",
+    description="This is automation tools",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="http://example.com",
+    url="https://github.com/shelltdf/vvmake",
     entry_points = {'console_scripts': ['vvmake=vvmake:main'] },
     package_dir = {'': 'vvmakelib'},
     # install_requires=[
