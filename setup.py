@@ -3,7 +3,7 @@
 import re
 import setuptools
 
-version = "0.3.0"
+version = "0.3.2"
 # with open('vvmake/__init__.py', 'r') as fd:
     # version = re.search(r"^__version__s=s[']([^'])[']",
                         # fd.read(), re.MULTILINE).group(1)
@@ -20,14 +20,19 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/shelltdf/vvmake",
+    # scripts=["vvmake.py"],
     entry_points = {'console_scripts': ['vvmake=vvmake:main'] },
-    package_dir = {'': 'vvmakelib'},
+    # package_dir = {'': 'vvmakelib'},
+    
+    # package_data = {'': ['*.py']},
+    include_package_data = True,
+    
     # install_requires=[
         # 'requests!=2.9.0',
         # 'lxml=4.2.3',
         # 'monotonic=1.5',
     # ],
-    # packages=setuptools.find_packages(exclude=("test")),
+    packages=setuptools.find_packages(exclude=("test")),
     # classifiers=(
         # "License  OSI Approved  MIT License",
         # "Intended Audience  Developers",
