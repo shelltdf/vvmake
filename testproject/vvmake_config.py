@@ -1,4 +1,4 @@
-from vvmakelib import vv
+from vvmake import vv
 
 def dependency():
     if vv.FIND("include/pcl.h"):

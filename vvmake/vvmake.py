@@ -3,8 +3,9 @@ import os.path
 import sys
 # import vvmakelib as vm
 # from vvmakelib import test
-from vvmakelib import vv
-from vvmakelib.vv import VVCONFIG
+# from vvmakelib import vv
+import vvmake.vv
+from vvmake.vv import VVCONFIG
 
 
 def loadScript(str_name):
@@ -33,7 +34,7 @@ def main():
     # test.vvmake_test()
     
     
-    vv.CWD = os.getcwd()
+    vvmake.vv.CWD = os.getcwd()
     
     vvconfig = VVCONFIG()
     
