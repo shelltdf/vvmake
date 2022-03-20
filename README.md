@@ -2,6 +2,10 @@
 
 one man call him self AV. so he`s make call VVMAKE.
 
+```
+pip install vvmake
+```
+
 
 
 # vvmake_config.py
