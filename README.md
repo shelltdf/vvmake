@@ -38,14 +38,15 @@ def package():
 # vvmake.py
 
 ```
+cd source_dir
 
-python vvmake.py build -pdir ./ -idir d:/dev
-python vvmake.py install
-python vvmake.py test
-python vvmake.py package
+vvmake.py build -idir d:/dev
 
+vvmake.py install
 
-python vvmake.py build -pdir testproject -idir d:/dev
+vvmake.py test
+
+vvmake.py package
 
 ```
 
