@@ -40,13 +40,17 @@ def package():
 ```
 cd source_dir
 
-vvmake.py build -idir d:/dev
+vvmake build -idir d:/dev
+vvmake build -debug
+vvmake build -debug -static
 
-vvmake.py install
+vvmake install
+vvmake install -debug
+vvmake install -debug -static
 
-vvmake.py test
+vvmake test
 
-vvmake.py package
+vvmake package
 
 ```
 
