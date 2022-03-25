@@ -18,7 +18,7 @@ class VVCONFIG:
     vv_project_script = 'vvmake_config' # vvmake_config.py
     
     # target setting
-    vv_target_arch = 'vs2019_64' # vc gcc clang 32 64
+    vv_target_arch = 'vs2019-64' # vc gcc clang 32 64
     vv_dynamic_static = 'dynamic'
     vv_release_debug = 'release'
     
