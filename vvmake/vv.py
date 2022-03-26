@@ -64,9 +64,9 @@ def my_build_and_install_dir(vvconfig):
     
 def my_into_build_dir( str_name , vvconfig ):
 
-    if(os.path.isdir("build")==False):
-        os.system( "mkdir build" )
-    os.chdir( "build" )
+    if(os.path.isdir("vvbuild")==False):
+        os.system( "mkdir vvbuild" )
+    os.chdir( "vvbuild" )
     
     dir_name = my_build_and_install_dir(vvconfig)
         

@@ -3,7 +3,7 @@
 import re
 import setuptools
 
-version = "0.3.4"
+version = "0.3.5"
 # with open('vvmake/__init__.py', 'r') as fd:
     # version = re.search(r"^__version__s=s[']([^'])[']",
                         # fd.read(), re.MULTILINE).group(1)
